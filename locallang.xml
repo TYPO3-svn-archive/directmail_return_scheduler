@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <type>module</type>
+        <description>General language labels for extension 'directmail_return_scheduler'</description>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="directmailreturnscheduler.returnAnalysis.name">direct_mail Return Mail Analysis</label>
+            <label index="directmailreturnscheduler.returnAnalysis.description">A scheduler task to analyze the return mails.</label>
+			<label index="directmailreturnscheduler.returnAnalysis.label.mail_type">Type (POP, IMAP, IMAPS, other)</label>
+			<label index="directmailreturnscheduler.returnAnalysis.label.mail_host">Host</label>
+			<label index="directmailreturnscheduler.returnAnalysis.label.mail_port">Port (leave empty for default) </label>
+			<label index="directmailreturnscheduler.returnAnalysis.label.mail_inbox">Name of the Inbox, default = INBOX</label>
+			<label index="directmailreturnscheduler.returnAnalysis.label.mail_user">Username</label>
+			<label index="directmailreturnscheduler.returnAnalysis.label.mail_password">Password</label>
+			<label index="directmailreturnscheduler.returnAnalysis.label.mails_per_cycle">Process mails per cycle</label>
+        </languageKey>
+    </data>
+</T3locallang>

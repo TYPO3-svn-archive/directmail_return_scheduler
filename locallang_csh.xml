@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+    <meta type="array">
+        <description>Contents of scheduler task csh</description>
+        <type>CSH</type>
+        <csh_table>xMOD_tx_directmailreturnscheduler</csh_table>
+        <fileId>EXT:directmail_return_scheduler/locallang_csh.xml</fileId>
+        <labelContext type="array">
+        </labelContext>
+    </meta>
+    <data type="array">
+        <languageKey index="default" type="array">
+            <label index="task_mail_port.alttitle">Default Ports:</label>
+            <label index="task_mail_port.description">POP=110, IMAP=143, IMAPS=993</label>
+			<label index="task_mail_type.alttitle">Mailbox Type:</label>
+			<label index="task_mail_type.description">If other the string is directly passed to the imap_open() function</label>
+
+        </languageKey>
+    </data>
+</T3locallang>
