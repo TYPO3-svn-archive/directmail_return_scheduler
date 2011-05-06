@@ -63,6 +63,8 @@ class tx_directmailreturnscheduler_returnAnalysis extends tx_scheduler_Task {
 			}
 		}
 		touch($lockfile);
+		// Fixing filepermissions
+		t3lib_div::fixPermissions($lockfile);
 
 		// create the connection string
 		$port = $this->mail_port;
