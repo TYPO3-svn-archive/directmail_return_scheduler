@@ -9,4 +9,3 @@ if (TYPO3_MODE == 'BE') {
     t3lib_extMgm::addLLrefForTCAdescr('xMOD_tx_directmailreturnscheduler', 'EXT:' . $_EXTKEY . '/locallang_csh.xml');
 }
 ?>
-
