@@ -33,6 +33,7 @@ $EM_CONF[$_EXTKEY] = array(
 	'constraints' => array(
 		'depends' => array(
 			'direct_mail' => '',
+			'typo3' => '4.6.0-0.0.0',
 		),
 		'conflicts' => array(
 		),

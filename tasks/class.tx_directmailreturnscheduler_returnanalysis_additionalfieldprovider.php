@@ -186,11 +186,11 @@ class tx_directmailreturnscheduler_returnAnalysis_AdditionalFieldProvider implem
 
 		$submittedData['mail_type'] = trim($submittedData['mail_type']);
 		$submittedData['mail_host'] = trim($submittedData['mail_host']);
-		$submittedData['mail_port'] = t3lib_div::intval_positive($submittedData['mail_port']);
+		$submittedData['mail_port'] = t3lib_utility_Math::convertToPositiveInteger($submittedData['mail_port']);
 		$submittedData['mail_inbox'] = trim($submittedData['mail_inbox']);
 		$submittedData['mail_user'] = trim($submittedData['mail_user']);
 		$submittedData['mail_password'] = trim($submittedData['mail_password']);
-		$submittedData['mails_per_cycle'] = t3lib_div::intval_positive($submittedData['mails_per_cycle']);
+		$submittedData['mails_per_cycle'] = t3lib_utility_Math::convertToPositiveInteger($submittedData['mails_per_cycle']);
 
 		return true;
 	}
